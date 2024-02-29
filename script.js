@@ -20,7 +20,7 @@ document
     var phoneNumber = "+923138572445";
 
     // Message to send
-    var message = "";
+    var message = "FruitFusion Delight Feedback ";
 
     // Open the WhatsApp application with the chat window open
     window.open(
