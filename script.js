@@ -13,18 +13,18 @@ document
       "_blank"
     );
   });
-// document
-//   .getElementById("whatsappButton2")
-//   .addEventListener("click", function () {
-//     // Phone number to chat with (include the country code but exclude any + or - signs)
-//     var phoneNumber = "+923067524517";
+document
+  .getElementById("whatsappButton2")
+  .addEventListener("click", function () {
+    // Phone number to chat with (include the country code but exclude any + or - signs)
+    var phoneNumber = "+923138572445";
 
-//     // Message to send
-//     var message = "I want to buy Lemonade";
+    // Message to send
+    var message = "";
 
-//     // Open the WhatsApp application with the chat window open
-//     window.open(
-//       "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message),
-//       "_blank"
-//     );
-//   });
+    // Open the WhatsApp application with the chat window open
+    window.open(
+      "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message),
+      "_blank"
+    );
+  });
