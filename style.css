@@ -1,0 +1,118 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Open+Sans&family=PT+Serif&family=Playfair+Display&family=Poppins:wght@200&family=Roboto+Slab:wght@100..900&family=Rubik+Doodle+Shadow&display=swap');
+ 
+/* *{
+  margin : 0;
+  padding : 0;
+  
+}
+.main{
+  display : flex;
+  justify-content: space-around;
+  margin : 100px;
+}
+.card{
+  height : 300px;
+  width : 300px;
+}
+.text{
+  width : 300px;
+  height : 50px;
+  color : white;
+  background-color : green;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  cursor : pointer;
+  
+
+}
+.card img{
+  height : 100%;
+  width : 100%;
+  object-fit: cover;
+  border-radius : 20px;
+} */
+
+.text-container{
+  height: 200px;
+  display : flex;
+  justify-content: center;
+  align-items :center;
+}
+.heading-text{
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+}
+.main{
+  /* display : flex; */
+  background: linear-gradient(45deg, #FFFFFF 25%,  #FFFF00 25%,   #FFFF00 30%,  #FFFFFF 60%, #FFFFFF 25%,  #FFFF00 25%);
+}
+.container{
+  display : flex;
+  justify-content: space-evenly;
+  /* background-color: skyblue; */
+  
+
+height : 500px;
+}
+.box{
+  height : 300px;
+  width : 300px;
+  border : 2px solid black;
+  border-radius : 20px;
+  /* color : white; */
+  /* background-color : skyblue; */
+  /* background-color : #EC6408; */
+}
+.image{
+  height : 230px;
+  width :230px;
+  padding-left : 38px;
+  margin-bottom : -90px;
+  
+}
+.image img{
+  height : 100%;
+  width : 100%;
+  object-fit : cover;
+  border-radius : 50%;
+  border : 2px solid red;
+   
+}
+.text{
+  padding-top :80px;
+  text-align : center;
+}
+.price{
+  display : flex;
+  justify-content: space-evenly;
+}
+.price p{
+  font-size : 24px;
+}
+.button {
+  height : 50px;
+  width : 150px;
+  background-color : black;
+  color : white;
+  display : flex;
+  justify-content: space-around;
+  border-radius : 30px;
+  margin-left : 70px;
+  cursor : pointer;
+   
+}
+
+@media only screen and (max-width: 560px){
+
+  .container{
+    display : flex;
+    flex-wrap: wrap;
+    /* padding-right : 100px; */
+     
+  }
+  .main{
+    margin-bottom : 50px;
+  }
+}
